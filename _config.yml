@@ -102,15 +102,15 @@ analytics:
 # Site Author
 author:
   name             : "JOHOCHEUL"
-  avatar           : # 프로필 이미지 경로, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "꾸준히 공부하는 개발자입니다. <br> 블로그 포스트 글에서 잘못된 부분이나 수정했으면 하는 부분, 적극적으로 댓글 남겨주신다면 감사하겠습니다."
-  location         : "Republic of Korea"
+  avatar           : /assets/images/logo.jpg # 프로필 이미지 경로, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "꾸준히 공부하는 개발자입니다."
+  location         : "Republic of Korea, AnYang"
   email            : "dao00171@naver.com"
   links:
-    # - label: "dao00171@naver.com"
-    #   icon: "fas fa-fw fa-envelope-square"
-    #   url: "mailto:dao00171@naver.com"
-    - label: "Website"
+    - label: "dao00171@naver.com"
+      icon: "fas fa-fw fa-envelope-square"
+      # url: "mailto:dao00171@naver.com"
+    - label: "Portfolio"
       icon: "fas fa-fw fa-link"
       url: "https://hcjo1223.github.io/portfolio/"
     - label: "Twitter"
@@ -121,7 +121,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/hcjo1223"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -137,7 +137,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/hcjo1223"
+      # url: "https://github.com/hcjo1223"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -217,7 +217,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul
 
 
 # Plugins (previously gems:)
@@ -284,28 +284,10 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
+      comments: true
       share: true
       related: true
       show_date: true
-      comments:
-        provider: "staticman"
-      staticman:
-        allowedFields          : ['name', 'email', 'url', 'message']
-        branch                 : "main"
-        commitMessage          : "New comment by {fields.name}"
-        filename               : comment-{@timestamp}
-        format                 : "yml"
-        moderation             : true
-        path                   : "_data/comments/{options.slug}"
-        requiredFields         : ['name', 'email', 'message']
-        transforms:
-          email                : "md5"
-        generatedFields:
-          date:
-            type               : "date"
-            options:
-              format           : "iso8601"
-
 
  # _pages
   - scope:
