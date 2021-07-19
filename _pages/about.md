@@ -2,7 +2,12 @@
 permalink: /about/
 title: "About"
 ---
+초보개발자 조호철입니다.
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+git 사용법과 학습한 내용을 상기시키기 위해서 글을 작성하게 되었습니다. 새롭게 지식을 알아가는 과정에서 보람을 느끼고, 혹시 도움이 될 수도 있는 글을 작성할 수 있음에 기쁩니다. 더불어 부족한 글솜씨도 같이 늘려가보려 합니다.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+포스터 내용은, 학습을 통해 얻은 지식과 방법을 정리하여 올릴예정입니다.
+
+학습중인 내용
+- Spring Boot를 이용하여 웹어플리케이션은 개발
+- Vanilla JS, React JS 로 웹 개발
