@@ -1,8 +1,11 @@
-
 ---
 title: "GitHub Pages를 이용한 정적 웹 페이지 호스팅 하기"
-categories: 
-  - "Blog"
+categories:
+  - Blog
+tags:
+  - Blog
+  - 블로그
+  - github-page
 ---
 
 # Github Pages란?
@@ -26,7 +29,7 @@ categories:
 
 * <a href="https://github.com/" target="_blank">https://github.com/</a>
 
-<img src="/assets/images/deploy/2021-07-19-git-static-web-page/github_sign_in.png">
+<img src="/assets/images/2021-07-19-git-static-web-page/github_sign_in.png">
 
 > 여기서 사용자이름(Username)은 이후 생성되는 깃허브 페이지 사이트의 도메인이 됩니다. (**_사용자이름_**.github.io)
 
@@ -36,13 +39,13 @@ categories:
 
 
 
-![저장소 생성 메뉴](/assets/images/deploy/2021-07-19-git-static-web-page/github_menu.png)
+![저장소 생성 메뉴](/assets/images/2021-07-19-git-static-web-page/github_menu.png)
 
 * <a href="https://github.com/new" target="_blank">https://github.com/new</a>
 
 우측 상단의 “+” 아이콘을 누른 후 **New repository** 버튼을 누르거나, 위 링크로 들어가자
 
-<img src="/assets/images/deploy/2021-07-19-git-static-web-page/github_createrepo.png">
+<img src="/assets/images/2021-07-19-git-static-web-page/github_createrepo.png">
 
 > <strong>-Repository name : 프로젝트 이름</strong>   
 > <em>("github아이디.github.io"로 저장소를 만들면, 별도의 설정 없이 이 블로그와 같은 "https://github아이디.github.io/"의 형태로 웹 페이지가 생성된다)</em>
@@ -60,7 +63,7 @@ categories:
 
 <br>
 
-<img src="/assets/images/deploy/2021-07-19-git-static-web-page/github_upload.png">
+<img src="/assets/images/2021-07-19-git-static-web-page/github_upload.png">
 
 > 1. <strong style="color:#0366d6">uploading an existing file</strong> 클릭   
 > 2. 파일 드래그 or 파일 선택을 통해 파일들을 업로드   
@@ -72,7 +75,7 @@ categories:
 
 브라우저로 “https://github.com/**_사용자이름_**/**_저장소이름_**/settings” 에 접속을 하면 저장소 설정을 하실 수 있습니다.
 
-<img src="/assets/images/deploy/2021-07-19-git-static-web-page/github_page.png">
+<img src="/assets/images/2021-07-19-git-static-web-page/github_page.png">
 
 <br><br>
 

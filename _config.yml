@@ -137,7 +137,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      # url: 
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -282,6 +282,7 @@ defaults:
       type: posts
     values:
       layout: single
+        classes: wide
       author_profile: true
       read_time: true
       comments: true
