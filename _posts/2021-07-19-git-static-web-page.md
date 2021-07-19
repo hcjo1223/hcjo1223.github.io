@@ -17,7 +17,7 @@ tags:
 
 # 정적 웹 페이지란?
 
-<img src="/assets/images/deploy/2021-07-19-git-static-web-page/static_web_page.png">
+<img src="/assets/images/2021-07-19-git-static-web-page/static_web_page.png">
 
 > 정적 웹 페이지는 웹 서버에 미리 저장된 파일들(HTML, CSS, Javascript 파일 등)이 그대로 사용자에게 전달되어 보여지는 웹 페이지이다. 즉, 웹 서버가 정적 웹 페이지에 대한 요청을 받은 경우 서버는 추가적인 처리 과정 없이 클라이언트에게 응답을 보냅니다. 예를 들어 회사나 개인의 소개 페이지가 정적 웹 페이지의 좋은 예시입니다.
 
